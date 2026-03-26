@@ -25,16 +25,23 @@ To write a Python program to check the relation between two numbers — whether 
 
 ```
 
-```
+#Reg.No: 212222060272
+#Name: TARUN E A
+#Add your Code Here
+compare = lambda a, b: (
+    f"{a} is greater than {b}" if a > b 
+    else (f"{a} is smaller than {b}" if a < b 
+    else f"{a} is equal to {b}")
+)
 
+input1 = int(input())
+input2 = int(input())
+print(compare(input1, input2))
+
+```
 ### OUTPUT
+<img width="624" height="229" alt="image" src="https://github.com/user-attachments/assets/82d194dd-0dbc-4df2-be20-b8f07b63f8be" />
 
-```
-
-```
 
 ### RESULT
-
-```
-
-```
+Thus the program to check the relation between two number using lambda function has been implemented and executed successfully.
